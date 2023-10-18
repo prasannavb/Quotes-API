@@ -1,0 +1,82 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+.card-Quote
+{
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  left:12.5%;
+  top:12.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+
+.outer-div-Quote
+{
+  background-color: white;
+  box-shadow: 1px 2px 3px 4px (12,12,12,0.2);
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+  width: 100%;
+  height: 75%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.title-Quote
+{
+  border-bottom: 4px solid rgb(7, 102, 154);
+  width: fit-content;
+  text-align: center;
+  align-self: center;
+
+}
+
+.quote-Quote
+{
+  text-align: center;
+}
+.author-Quote
+{
+  text-align: end;
+}
+.btn-Quote,.Back-Quote
+{
+  align-self: flex-end;
+  background-color: rgb(181, 47, 6);
+  color:white;
+  border-radius: 5px;
+  padding: 1%;
+  cursor: pointer;
+}
+.btn-Quote:hover,.Back-Quote:hover{
+  box-shadow: 0 0 11px rgb(181, 47, 6); 
+
+}
+.Back-Quote
+{
+  align-self: center;
+  text-decoration: none;
+  margin:1% ;
+}
+
+@media only screen and (max-width:426px)
+{
+  .card-Quote
+{
+  width: 100%;
+  height: fit-content;
+  left:0;
+  top:25%;
+  padding: 2%;
+}
+
+}

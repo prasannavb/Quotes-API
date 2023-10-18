@@ -1,0 +1,46 @@
+.Home_title
+{
+    font-family: "Pacifico";
+    color:greenyellow;
+    font-size: 50px;
+    text-align: center;
+}
+.Homepage
+{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 2px solid white;
+    top:25%;
+    left:25%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    
+}
+
+.RGQ,.GQC
+{
+  background-color: rgb(181, 47, 6);
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  cursor: pointer;
+}
+@media (max-width:375px)
+{
+.Home_title
+{
+  font-size: 50px;
+}
+.Homepage
+{
+  width: 75%;
+  height: 75%;
+  left:12.5%;
+  top:12.5%;
+}
+}
