@@ -24,7 +24,7 @@
   <li>CSS</li>
   <li>React.js: A JavaScript library for building user interfaces.</li>
   <li>Vite: A fast build tool for modern web development.</li>
-  <li></li>
+  <li>API Integration: Proficient in integrating and consuming external APIs.</li>
 </ul>
 
 <h2>Demo</h2>
