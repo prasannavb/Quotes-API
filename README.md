@@ -29,7 +29,7 @@
 
 <h2>Demo</h2>
 <ul>
-  <li>You can see a demo of the Youtube homepage clone <a href='https://github.com/prasannavb/Quotes-API/'>here</a>.</li>
+  <li>You can see a demo of the QuotesAPI project <a href='https://github.com/prasannavb/Quotes-API/'>here</a>.</li>
 </ul>
 
 <h2>Usage</h2>
