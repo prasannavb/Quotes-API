@@ -9,12 +9,14 @@ const QuoteBycategory=()=>
 {
   const [quote,Setquote]=useState({quote:"Random quotes!!",author:" "});
   const[category,Setcategory] = useState(null);
+  const API_KEY = import.meta.env.VITE_API_KEY;
+ 
   const Getquote=async()=>
   {
       
   const {data}=await axios.get('https://api.api-ninjas.com/v1/quotes?category='+category,{
      headers: {
-       'X-Api-Key': 'JrraOAG1/dszP47Pd5JajQ==Ox6qLryrEKEtb0uW'
+       'X-Api-Key': API_KEY
   }});
   if(category!=null)
   {
